@@ -6,3 +6,4 @@ gradle.properties
 
 #Ignored directories
 /build/*
+/.nb-gradle/

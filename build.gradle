@@ -30,3 +30,13 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'ohtu.ohtuvarasto.Main'
 
+// Jar configuration
+jar {
+    manifest {
+        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+    }    
+}
+
+// Apply JaoCoCo plugin to estimate test line coverage
+apply plugin: 'jacoco'
+
