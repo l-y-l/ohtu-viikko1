@@ -40,3 +40,11 @@ jar {
 // Apply JaoCoCo plugin to estimate test line coverage
 apply plugin: 'jacoco'
 
+// JacoCo test report in Codecov
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
