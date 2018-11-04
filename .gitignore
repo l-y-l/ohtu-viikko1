@@ -1,9 +1,11 @@
 #Files to ignore
 gradle.properties
+.DS_Store
 
 #Ignored files with suffix
 *tmp
 
 #Ignored directories
 /build/*
+/.gradle/
 /.nb-gradle/
