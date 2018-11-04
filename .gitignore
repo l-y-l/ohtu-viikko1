@@ -1,11 +1,15 @@
 #Files to ignore
 gradle.properties
-.DS_Store
 
 #Ignored files with suffix
+*.DS_Store
 *tmp
 
 #Ignored directories
 /build/*
 /.gradle/
 /.nb-gradle/
+/tehtavat_14-16/RiippuvuuksienInjektointi1/.nb-gradle/
+/tehtavat_14-16/RiippuvuuksienInjektointi1/build/
+/tehtavat_14-16/NhlStatistics1/.nb-gradle/
+/tehtavat_14-16/NhlStatistics1/build/
