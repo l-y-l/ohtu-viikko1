@@ -172,12 +172,12 @@ public class VarastoTest {
 
     @Test
     public void ottaminenEnemmanKuinTilavuutta() {
-        varasto.lisaaVarastoon(8);
+        varasto.lisaaVarastoon(7);
         
         double saatuMaara = varasto.otaVarastosta(12);
 
         // nosto on koko alkuperainen saldo, ja varaston pitaa olla tyhja
-        assertEquals(8, saatuMaara, vertailuTarkkuus);
+        assertEquals(7, saatuMaara, vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
