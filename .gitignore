@@ -1,5 +1,8 @@
-# Ignored files with suffix
+#Files to ignore
+gradle.properties
+
+#Ignored files with suffix
 *tmp
 
-# Ignored directories
+#Ignored directories
 /build/*
