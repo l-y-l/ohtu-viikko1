@@ -188,6 +188,6 @@ public class VarastoTest {
         
         String vastaus = varasto.toString();
 
-        assertEquals("saldo = 8.0, vielä tilaa 2.0", vastaus);
+        assertEquals("saldo = 8.0, vielä tilaa 2.0.", vastaus);
     }
 }
