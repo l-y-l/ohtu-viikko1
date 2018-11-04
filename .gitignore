@@ -1,0 +1,5 @@
+# Ignored files with suffix
+*tmp
+
+# Ignored directories
+/build/*
