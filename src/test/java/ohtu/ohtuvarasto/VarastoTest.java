@@ -55,7 +55,8 @@ public class VarastoTest {
     public void uudellaVarastollaOikeaSaldo() {
         varasto = new Varasto(10, 5);
         
-        assertEquals(5, varasto.getSaldo(), vertailuTarkkuus);
+        final int odotettuVastaus = 5;
+        assertEquals(odotettuVastaus, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     
