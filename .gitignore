@@ -4,6 +4,7 @@ gradle.properties
 #Ignored files with suffix
 *.DS_Store
 *tmp
+*.swp
 
 #Ignored directories
 /build/*
